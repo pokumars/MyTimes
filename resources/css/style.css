@@ -1,0 +1,52 @@
+header{
+display: flex;
+justify-content: space-between;
+font-family: Verdana;
+ font-size: 14px;
+ font-weight: bold;
+ border: 2px black solid;
+}
+.logo{
+color: MediumAquamarine;
+display: inline-flex;
+padding-left: 30px;
+}
+nav span{
+display: inline-block;;
+padding: 20px 10px;
+}
+a{
+  color: black;
+}
+.container{
+  display: inline-flex;
+border: 2px black solid;
+justify-content: space-between;
+width: 95%;
+padding: 10px 10px;
+margin: 10px 10px;
+}
+.left-column{
+  display: flex;
+  flex-direction: column;
+border: 1px black solid;
+width: 630px;
+
+}
+.mid-column{
+  flex-direction: column;
+display: flex;
+border: 1px black solid;
+width: 300px;
+
+}
+.right-column{
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  width: 240px;
+
+}
+div{
+ border: 1px black solid;
+}
